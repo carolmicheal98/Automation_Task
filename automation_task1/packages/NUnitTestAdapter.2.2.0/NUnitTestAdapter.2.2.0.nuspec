@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>NUnitTestAdapter</id>
+    <version>2.2.0</version>
+    <title>NUnit Test Adapter for Visual Studio</title>
+    <authors>Charlie Poole, Terje Sandstrom</authors>
+    <owners>Charlie Poole, Terje Sandstrom</owners>
+    <licenseUrl>http://visualstudiogallery.msdn.microsoft.com/site/6ab922d0-21c0-4f06-ab5f-4ecd1fe7175d/eula?licenseType=None</licenseUrl>
+    <projectUrl>https://nunit.org/index.php?p=vsTestAdapter&amp;r=2.6</projectUrl>
+    <iconUrl>https://api.nuget.org/v3-flatcontainer/nunittestadapter/2.2.0/icon</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The NUnit TestAdapter for Visual Studio 2012 and newer for NUnit 2.  With this package you don't need to install the VSIX adapter package, and you don't need to upload the adapter to your TFS server.
+Note that this package ONLY contains the adapter, not the NUnit framework.</description>
+    <summary>The NUnit TestAdapter for Visual Studio 2012 and newer for NUnit 2</summary>
+    <releaseNotes>See release notes on project site</releaseNotes>
+    <copyright>Copyright (c) Charlie Poole 2011-2019, Terje Sandstrom 2014-2019</copyright>
+    <language>en-US</language>
+    <tags>test visualstudio testadapter nunit</tags>
+  </metadata>
+</package>

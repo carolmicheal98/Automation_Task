@@ -1,0 +1,43 @@
+Steps using visual studio 2013:
+
+//Navigate to skyscanner
+
+1-Downloaded FireFoxDriver.
+2-öRun FireFoxDriver by attaching the path of FireFoxDriver with an object called"firefox" of type "IWebDriver".
+3-Attach the URL of "SkyScanner" (https://www.skyscanner.net/).
+
+
+//Search_flights:
+1-Filling the data required by selecting : - ID of fields(From , To).
+                                           -XPath of fields(Depart , Return).
+                                           -XPath of checkbox field(Direct flights only).
+
+
+2-Clicking on "Search flights" botton by selecting XPath of the button.
+
+3-Clicking on "Continue" botton by selecting XPath of the button.
+
+//Search_cheapest_flights:
+ 
+4-Clicking on sort by dropdown list by selecting ID.
+
+5-Choosing "Cheapest First" by selecting XPath.
+
+Assertions:
+
+Check the button of "Cheapest" is selected.
+
+//search_shortest_flights:
+
+6-Clicking on sort by dropdown list by selecting ID.
+
+7-Choosing "Fastest First" by selecting XPath.
+
+Assertions:
+
+Check the button of "Fastest" is selected.
+
+
+
+
+
